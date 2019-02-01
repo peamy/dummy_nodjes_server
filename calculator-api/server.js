@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 // Variables
-var port = process.env.API_PORT || 8080
+var port = process.env.API_PORT || 80
 
 // Routes
 var math = require('./routes/math.js')
